@@ -989,6 +989,11 @@ interface IActivityManager {
     oneway void frozenBinderTransactionDetected(int debugPid, int code, int flags, int err);
     int getBindingUidProcessState(int uid, in String callingPackage);
 
+     /**
+     *  Should disable touch if three fingers to screen shot is active?
+     */
+    boolean isSwipeToScreenshotGestureActive();
+
     /**
      * Return the timestampe (in the elapsed timebase) when the UID became idle from active
      * last time (regardless of if the UID is still idle, or became active again).
