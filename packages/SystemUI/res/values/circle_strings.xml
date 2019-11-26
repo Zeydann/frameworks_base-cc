@@ -45,4 +45,10 @@
 
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Data disabled icon</string>
+
+    <!-- DataSwitch Tile -->
+    <string name="qs_data_switch_label">Switch data card</string>
+    <string name="qs_data_switch_sim_label">SIM %d</string>
+    <string name="qs_data_switch_sim_desc">SIM %d is the preferred mobile data SIM</string>
+    <string name="qs_data_switch_sim_transient">Switching\u2026</string>
 </resources>
