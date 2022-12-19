@@ -4582,4 +4582,7 @@
 
     <!-- Description for the Ambient Cue accessibility action label for expanding. [CHAR LIMIT=NONE] -->
     <string name="ambient_cue_expand_action">expand</string>
+
+    <!-- Screenshot Tile -->
+    <string name="screenshot_long_press">Long press - selected region</string>
 </resources>
