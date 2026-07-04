@@ -1238,7 +1238,6 @@ public class Notifier {
     }
 
     private void showChargingStopped(@UserIdInt int userId, boolean wireless) {
-        playChargingStartedFeedback(userId, wireless);
         mSuspendBlocker.release();
     }
 
